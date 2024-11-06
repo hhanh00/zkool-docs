@@ -18,5 +18,5 @@ start (and take **hours**).
 ```
 
 ---
-[^1]: See [Keys]() for the supported key types
+[^1]: See [Keys](../advanced/keys.md) for the supported key types
 [^2]: Some exchanges prohibit using shielded addresses
