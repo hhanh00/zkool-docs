@@ -1,6 +1,6 @@
 # Balance
 
-![Home Page]({{rootUrl}}/images/2024-11-06_21-53-23.png "home" =450x)
+![Balance]({{rootUrl}}/images/2024-11-06_21-53-23.png "balance" =450x)
 
 1. Synchronization Status. Shows either the current
 height (and when that block was mined), or
