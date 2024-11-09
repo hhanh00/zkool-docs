@@ -1,6 +1,7 @@
 # Summary
 
 - [Basic Usage](basic/index.md)
+    - [What's new?](basic/new.md)
     - [Create New or Restore Old Accounts](basic/new_account.md)
     - [Check Balance](basic/balance.md)
     - [Receive Funds](basic/payment_uri.md)
@@ -18,6 +19,7 @@
     - [Market Price & Account History](intermediate/market_price.md)
 - [Advanced](advanced/index.md)
     - [Keys](advanced/keys.md)
+    - [Key Derivation](advanced/keytool.md)
     - [Address Diversification](advanced/div_address.md)
     - [Transparent Wallet](advanced/transparent.md)
     - [Transaction Details](advanced/tx_details.md)
