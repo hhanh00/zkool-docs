@@ -39,8 +39,13 @@ jobs:
         run: curl -L --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/cargo-bins/cargo-binstall/main/install-from-binstall-release.sh | bash
       - name: Install mdBook
         run: cargo binstall -y --version ${MDBOOK_VERSION} mdbook
+      - name: Install mdbook-image-size
+        run: |
+          wget https://github.com/hhanh00/mdbook-image-size/releases/download/v0.1.0/mdbook-image-size-v0.1.0-x86_64-unknown-linux-gnu.tar.gz
+          tar xvf mdbook-image-size-v0.1.0-x86_64-unknown-linux-gnu.tar.gz
+          mv mdbook-image-size $HOME/.cargo/bin/
       - name: Install md plugins
-        run: cargo binstall -y mdbook-mermaid mdbook-admonish mdbook-image-size mdbook-tera
+        run: cargo binstall -y mdbook-mermaid mdbook-admonish mdbook-tera
       - name: Build with mdBook
         run: mdbook build
       - name: Upload artifact
